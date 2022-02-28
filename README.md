@@ -32,3 +32,6 @@ helm repo add grafana https://grafana.github.io/helm-charts
 helm pull grafana/grafana
 ./1#pull-and-compress.sh
 ```
+
+## warnings:
+this script uses podman, I can also make it work with docker but only if anyone will need it (just open an issue)
