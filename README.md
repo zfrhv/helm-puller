@@ -34,4 +34,5 @@ helm pull grafana/grafana
 ```
 
 ## warnings:
-this script uses podman, I can also make it work with docker but only if anyone will need it (just open an issue)
+- this tool required yq, make sure to install it.
+- this script uses podman, I can also make it work with docker but only if anyone will need it (just open an issue)
